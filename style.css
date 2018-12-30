@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("container/Convention2016_slide___Source.jpg");
+}
+
+.text {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+  width: 750px; 
+  margin-left: -50px;
+  text-shadow: 3px 2px red;
+}
+
+.container {
+  width: 650px;
+  height: 350px;
+  margin-left: 330px;
+
+}
+
+.i {
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 350px;
+  margin-top: 50px;
+
+}
+
+.im {
+  background-image: url("https://www.pngarts.com/files/3/Crazy-Minions-PNG-Download-Image.png");
+}
+
+.author {
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;  
+  transition: 2s;
+  border: 3px double blue;
+}
+
+.parent{
+  width: 650px;
+  height: 50px;
+  margin-top: 150px;
+
+}
+
+.video {
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;  
+  transition: 2s;
+  border: 3px double red;
+}
+
+.btn1 {
+  width: 195px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.author:hover {
+  width: 325px;
+  height: 50px;
+  font-size: 50px;
+  transform: translateX(-60px) rotate(360deg);
+}
+
+.btn2 {
+  width: 195px;
+  text-align: center;
+  transform: translate(200%,-100%);
+}
+
+.video:hover {
+  width: 325px;
+  height: 50px;
+  font-size: 50px;
+  transform: translate(-70px,27px) rotate(-360deg);
+}
